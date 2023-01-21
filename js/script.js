@@ -13,5 +13,27 @@ $(function(){
              $("#carouselButton").children("i").addClass("fa-pause")
          }
     });
+
+    // Reserved Modal 
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal("show");
+     })
+     //Login Modal 
+     $("#loginButton").click(function(){
+        $("#loginModal").modal("show"); 
+    })
     
  });
+
+
+//  $(function(){
+//     $("#reserveButton").click(function(){
+//        $("#reserveModal").modal("show");
+//     })
+//     $("#loginButton").click(function(){
+//         $("#loginModal").modal("show"); 
+//     })
+//  })
+
+
+

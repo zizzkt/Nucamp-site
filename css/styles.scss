@@ -1,5 +1,6 @@
 $color-primary: #3046C5;
 $color-secondary: #5637dd;
+$color-teal: #17A2B8;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
@@ -33,6 +34,21 @@ header {
    }
 
 }
+
+#reserveModal {
+    .modal-header{
+      background-color:  $color-teal;
+      color: white;
+    }
+}
+
+#loginModal {
+    .modal-header{
+        background-color: $color-mid;
+        color: white;
+    }
+}
+
 
 .navbar {
     background-color: $color-mid;
